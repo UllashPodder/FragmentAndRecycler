@@ -1,0 +1,2 @@
+rootProject.name = "My Andoid App1"
+include ':app'
