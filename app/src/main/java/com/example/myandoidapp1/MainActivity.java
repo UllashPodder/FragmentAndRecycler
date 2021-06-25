@@ -8,8 +8,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.myandoidapp1.RecyclerView.RecyclerViewActivity;
-
 public class MainActivity extends AppCompatActivity {
     private Fragment firstFragment;
     private Fragment secondFragment;
@@ -32,13 +30,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 getSupportFragmentManager().beginTransaction().replace(R.id.flFragment,secondFragment).commit();
-                goToRecyclerView();
             }
         });
 
     }
-    public void goToRecyclerView() {
-        Intent intent = new Intent(this, RecyclerViewActivity.class);
-        startActivity(intent);
-    }
+
 }

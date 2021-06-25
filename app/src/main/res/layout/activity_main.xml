@@ -20,7 +20,7 @@
         android:id="@+id/buttonFragment2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="fragment2/ reclycler view"
+        android:text="fragment2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/buttonFragment1"
